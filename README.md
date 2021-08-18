@@ -1,4 +1,4 @@
-# projetos
+# Projetos
 Repositório contendo arquivos relacionados a Projetos Profissionais e de Estudo.
 
 ## Links úteis:
