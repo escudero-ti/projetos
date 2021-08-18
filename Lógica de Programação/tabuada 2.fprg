@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Escudero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-22 07:06:53 "/>
+        <attribute name="created" value="RXNjdWRlcm87REVTS1RPUC1FQU02TlM0OzIwMjEtMDctMjI7IjA2OjAzOjUwICI7MzA3Mg=="/>
+        <attribute name="edited" value="RXNjdWRlcm87REVTS1RPUC1FQU02TlM0OzIwMjEtMDctMjI7IjA3OjA2OjUzICI7OTszMTk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, multiplicador" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe a tabuada desejada&quot;" newline="True"/>
+            <input variable="multiplicador"/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="numero&lt;=limite">
+                <output expression="multiplicador &amp; &quot;x &quot; &amp; numero &amp; &quot; = &quot; &amp; multiplicador*numero" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

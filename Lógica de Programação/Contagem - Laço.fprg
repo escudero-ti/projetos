@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Escudero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-22 06:13:27 "/>
+        <attribute name="created" value="RXNjdWRlcm87REVTS1RPUC1FQU02TlM0OzIwMjEtMDctMjI7IjA2OjAzOjUwICI7MzA3Mg=="/>
+        <attribute name="edited" value="RXNjdWRlcm87REVTS1RPUC1FQU02TlM0OzIwMjEtMDctMjI7IjA2OjEzOjI3ICI7NDszMTg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="numero&lt;limite">
+                <output expression="&quot;Contagem atual &quot; &amp; numero" newline="True"/>
+                <assign variable="numero" expression="numero + 1"/>
+            </while>
+            <output expression="&quot;Fim da contagem. N&#250;mero = &quot; &amp; numero" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
