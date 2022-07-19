@@ -18,18 +18,20 @@ class Televisao:
         if self.ligada:
             self.canal -= 1
 
-#instansiar televisao
-situacao = Televisao()
-print('Televisão está ligada? {}'.format(situacao.ligada))#situacao atual
-situacao.power()
-print('Televisão está ligada? {}'.format(situacao.ligada))#situacao2
-situacao.power()
-print('Televisão está ligada? {}'.format(situacao.ligada))#situacao3
-print('Canal: {}'.format(situacao.canal))
-situacao.power()
-print('Televisão está ligada? {}'.format(situacao.ligada))#situacao4
-situacao.aumenta_canal()
-situacao.aumenta_canal()
-print('Canal: {}'.format(situacao.canal))
-situacao.diminui_canal()
-print('Canal> {}'.format(situacao.canal))
+if __name__ == '__main__':
+
+    #instansiar televisao
+    situacao = Televisao()
+    print('Televisão está ligada? {}'.format(situacao.ligada))#situacao atual
+    situacao.power()
+    print('Televisão está ligada? {}'.format(situacao.ligada))#situacao2
+    situacao.power()
+    print('Televisão está ligada? {}'.format(situacao.ligada))#situacao3
+    print('Canal: {}'.format(situacao.canal))
+    situacao.power()
+    print('Televisão está ligada? {}'.format(situacao.ligada))#situacao4
+    situacao.aumenta_canal()
+    situacao.aumenta_canal()
+    print('Canal: {}'.format(situacao.canal))
+    situacao.diminui_canal()
+    print('Canal> {}'.format(situacao.canal))
