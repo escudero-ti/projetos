@@ -1,0 +1,21 @@
+<meta charset = "UTF-8">
+
+<script>
+    function pulaLinha(){
+
+        document.write("<br>");
+    }
+
+    function mostra(mensagem){
+
+        document.write(mensagem);
+        pulaLinha();
+    }
+
+    var ano = prompt("Informe o ano atual.");
+    var geracoes = (ano - 1500)/28;
+
+    mostra("Olha que legal!")
+    mostra("Desde 1500 até hoje já se passaram " + Math.round(geracoes) + " gerações de Brasileiros.")
+
+</script>

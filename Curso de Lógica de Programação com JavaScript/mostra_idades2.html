@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br><hr><br>");
+    }
+
+    function mostra(mensagem) {
+        document.write("<big>" + mensagem + "</big>");
+        pulaLinha();
+    }
+
+    var ano = prompt("informe o ano atual.");
+    var nascEdu = prompt("informe o ano de nascimento do Eduardo.");
+    var nascCarol = prompt("informe o ano de nascimento da Carol.");
+    var nascJuan = prompt("informe o ano de nascimento do Juan.");
+    var nascAlicia = prompt("informe o ano de nascimento da Alícia.");
+
+    mostra("<h3>Olha que legal...</h3>");
+    mostra("Eduardo tem " + (ano - nascEdu) + " anos.");
+    mostra("Carol tem " + (ano - nascCarol) + " anos.");
+    mostra("Juan tem " + (ano - nascJuan) + " anos.");
+    mostra("Alícia tem " + (ano - nascAlicia) + " anos.");
+
+</script>

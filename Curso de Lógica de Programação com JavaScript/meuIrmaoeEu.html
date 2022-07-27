@@ -1,0 +1,22 @@
+<meta charset = "UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        documento.write("<br>");
+    }
+
+    function mostra(mensagem) {
+
+        document.write(mensagem);
+        pulaLinha();
+    }
+
+    var idadeMinha = prompt("Qual a minha idade?");
+    var idadeIrmao = prompt("Qual a idade do meu irmão?");
+    var diferenca = (idadeMinha - idadeIrmao);
+
+    mostra("A diferença de idade entre meu Irmão e Eu é " + diferenca + " anos.");
+
+</script>

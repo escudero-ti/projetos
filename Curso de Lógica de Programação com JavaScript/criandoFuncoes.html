@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+    
+    var ano = prompt("Digite o ano atual?");
+    var nomePessoa1 = prompt("Digite o nome da Primeira Pessoa.");
+    var nascPessoa1 = prompt("Digite o ano de Nascimento de " + nomePessoa1 + ".");
+    var nomePessoa2 = prompt("Digite o nome da Segunda Pessoa.");
+    var nascPessoa2 = prompt("Digite o ano de Nascimento de " + nomePessoa2 + ".");
+    var nomePessoa3 = prompt("Digite o nome da Terceira Pessoa.");
+    var nascPessoa3 = prompt("Digite o ano de Nascimento de " + nomePessoa3 + ".");
+    var nomePessoa4 = prompt("Digite o nome da Quarta Pessoa.");
+    var nascPessoa4 = prompt("Digite o ano de Nascimento de " + nomePessoa4 + ".");
+   
+    document.write("A idade de " + nomePessoa1 + " é: " + (ano - nascPessoa1) + " anos");
+    pulaLinha();
+    document.write("A idade de " + nomePessoa2 + " é: " + (ano - nascPessoa2) + " anos");
+    pulaLinha();
+    document.write("A idade de " + nomePessoa3 + " é: " + (ano - nascPessoa3) + " anos");
+    pulaLinha();
+    document.write("A idade de " + nomePessoa4 + " é: " + (ano - nascPessoa4) + " anos");
+    pulaLinha();
+
+    var idadePessoa1 = (ano - nascPessoa1);
+    var idadePessoa2 = (ano - nascPessoa2);
+    var idadePessoa3 = (ano - nascPessoa3);
+    var idadePessoa4 = (ano - nascPessoa4);
+    var media = (idadePessoa1 + idadePessoa2 + idadePessoa3 + idadePessoa4)/4;
+
+    document.write("A média das idades é " + Math.round(media) + " anos");
+   
+</script>
