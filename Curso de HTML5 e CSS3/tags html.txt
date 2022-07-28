@@ -6,3 +6,9 @@
 
 <em></em> - itálico
 
+<!DOCTYPE html> - informar ao browser qual a versão do html está sendo utilizada
+
+<html></html> - indica o mundo html / <html lang="pt-br"> informa também o idioma padrão do site
+
+<title></title> - atribue o nome do site na Aba do Browser
+
