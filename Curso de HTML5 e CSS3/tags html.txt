@@ -1,3 +1,5 @@
+HTML
+
 <h1></h1> - tags título = <h1> <h2> <h3> <h4> <h5> <h6>
 
 <p></p> - parágrafo 
@@ -12,3 +14,11 @@
 
 <title></title> - atribue o nome do site na Aba do Browser
 
+<head></head> - cabeça da página
+
+<body></body> - corpo da página
+
+CSS
+
+style - define o esilo de um conteúdo
+style = font-size: 20px - define o tamanho da fonte em 20 pixels
