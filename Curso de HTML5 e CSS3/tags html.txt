@@ -22,3 +22,12 @@ CSS
 
 style - define o esilo de um conteúdo
 style = font-size: 20px - define o tamanho da fonte em 20 pixels
+
+
+//dimensões
+width: 100%; - largura
+height: 150px; - altura
+padding - espaçamento interno (padding-top)
+margin - espaçamento externo (margin-left or margin-right)
+
+border: 10px solid #000000; - criando uma borda preta
