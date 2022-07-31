@@ -1,0 +1,38 @@
+Nesta aula, aprendemos:
+
+A mexer na apresentação dos textos
+No alinhamento deles (text-align)
+No tamanho da fonte (font-size)
+Na cor de fundo (background)
+Na cor do texto (color)
+CSS inline
+Na linha onde temos a nossa tag, adicionamos a propriedade do CSS
+A tag <style>
+Dentro da tag, podemos colocar marcações de CSS referentes aos elementos que temos no nosso HTML
+A apresentação do CSS com um arquivo externo
+Como funciona o estilo em cascata do CSS
+Como importar um arquivo externo de CSS dentro da nossa página HTML
+Como representar cores no CSS
+Através do nome da cor
+Através do seu hexadecimal
+Através do seu RGB
+Nesta aula, começamos a mexer na apresentação dos textos, no alinhamento deles e no tamanho da fonte. Na próxima, vamos ver como fazer isso em grandes quantidades de texto e de forma muito mais organizada. Te espero lá.
+
+Para criar listas temos duas tags espefíficas, sendo <ul></ul> para listas não ordenadas e <ol></ol> para listas ordenadas. 
+Para que a lista fique formatada corretamente, após colocar a tag <ul> ou <ol> temos de marcar cadad item da lista com a tag <li></li>.
+
+No CSS os ids são únicos, já as Classes são repetíveis.
+Definição de Classe:
+<li class="itens"></li>
+Já no style.css temos de definir uma classe com um ponto antes do nome da classe. Ex. .itens
+
+Em HTML um texto tem a característica block e uma imagem a inline.
+Para add uma imagem ao lado de um texto temos de usar ums terceira característica, ou seja, criar um elemento que seja block e inline ao mesmo tempo.
+Para isso devemos no arquivo style.css atribuir um parâmetro a tag desejada.
+Ex.  
+ul {
+    display: inline-block;
+}
+
+Para alinhar o texto ao lado da imagem utilizamos a propriedade abaixo:
+vertical-align: top; center: ou down:
