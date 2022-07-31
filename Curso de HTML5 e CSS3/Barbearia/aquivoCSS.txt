@@ -36,3 +36,5 @@ ul {
 
 Para alinhar o texto ao lado da imagem utilizamos a propriedade abaixo:
 vertical-align: top; center: ou down:
+
+Para criar o Cabeçalho do nosso Site precisar criar uma outra divisão no index.html, porém dessa vez não utilizaremos a tag <div>, mas sim a <header> no mesmo esquema abre e fecha.

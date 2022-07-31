@@ -2,6 +2,10 @@ body {
    
 }
 
+.titulo_principal {
+    padding-left: 20px;
+}
+
 #banner {
     width: 100%;
 }
@@ -10,10 +14,16 @@ body {
     background: #CCCCCC; 
     width: 100%;
     padding: 30px;
+
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
+}
+
+.titulo_centralizado {
+    text-align: center;  
+    font-size: 25px;  
 }
 
 p {
@@ -36,10 +46,6 @@ em strong {
     background: #FFFFFF; 
     width: 100%;
     padding: 20px;
-}
-
-h2 {
-    text-align: center;
 }
 
 ul {
