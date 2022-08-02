@@ -1,0 +1,54 @@
+/* todos os parágrafos justificados */
+#logo {
+    width: 15%;
+}
+
+#principal {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.primeiroBloco {
+    background: pink;
+    padding: 30px;
+}
+
+.segundoBloco {
+    background: white;
+}
+
+p{
+    text-align:justify;
+    font-size: 18px;
+}
+
+#missao {
+    color: red;
+    font-size: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    width: 20%;
+    margin-left: 20%;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.bentocake {
+    width: 25%;
+    margin-left: 10%;
+
+}
